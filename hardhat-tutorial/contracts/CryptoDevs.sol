@@ -31,7 +31,7 @@
       bool public presaleStarted;
 
       // timestamp for when presale would end
-      uint256 public presaleEnded;
+      uint256 public presaleEnded;   
 
       modifier onlyWhenNotPaused {
           require(!_paused, "Contract currently paused");
