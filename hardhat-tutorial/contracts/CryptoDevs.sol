@@ -76,7 +76,7 @@
 
       /**
       * @dev mint allows a user to mint 1 NFT per transaction after the presale has ended.
-      */
+      */ 
       function mint() public payable onlyWhenNotPaused {
           require(presaleStarted && block.timestamp >=  presaleEnded, "Presale has not ended yet");
           require(tokenIds < maxTokenIds, "Exceed maximum Crypto Devs supply");
