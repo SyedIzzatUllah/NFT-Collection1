@@ -26,10 +26,10 @@ async function main() {
   );
 }
 
-// Call the main function and catch if there is any error
+// Call the main function and catch if there is any error with function being executed 
 main()
   .then(() => process.exit(0))
   .catch((error) => {
-    console.error(error);
+    console.error(error); 
     process.exit(1);
   });    
