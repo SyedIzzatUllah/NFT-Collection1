@@ -13,7 +13,7 @@ async function main() {
   */
   const cryptoDevsContract = await ethers.getContractFactory("CryptoDevs");
 
-  // deploy the contract
+  // deploy the contract and credentials 
   const deployedCryptoDevsContract = await cryptoDevsContract.deploy(
     metadataURL,
     whitelistContract
