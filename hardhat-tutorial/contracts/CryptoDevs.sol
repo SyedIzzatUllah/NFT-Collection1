@@ -11,7 +11,7 @@
        * token will be the concatenation of the `baseURI` and the `tokenId`.
        */
       string _baseTokenURI; 
-
+ 
       //  _price is the price of one Crypto Dev NFT
       uint256 public _price = 0.01 ether;
 
